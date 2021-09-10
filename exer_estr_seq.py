@@ -7,9 +7,9 @@ n= input ('Insira um número:')
 print ('O número informado foi ' + n)
 
 #tarefa 3
-a = input ('Insira um número:')
-b = input ('Insira um número:')
-print a + b
+a = int(input ('Insira um número:'))
+b = int(input ('Insira um número:'))
+print (a + b)
 
 #tarefa 4
 a= int(input('Insira a primeira nota:'))
@@ -39,7 +39,7 @@ salario_hora= int(input('Qual seu salário/h? '))
 hora_trabalho= int(input('Quantas horas você trabalha por mês? '))
 calculo_salario= salario_hora * hora_trabalho
 print ('Você recebe {} reais por mês.'.format(calculo_salario))
-'''
+
 #tarefa 9   
 temp_fh= int(input('Insira a temperatura em graus Fahrenheit:'))
 conv_celcius= 5 * ((temp_fh- 32)/ 9)
@@ -49,5 +49,14 @@ print ('Temperatura em °F convertida para °C: {}'.format(conv_celcius))
 temp_celcius= int(input('Insira a temperatura em graus Celcius:'))
 conv_fh= (temp_celcius + 1.8) + 32
 print ('Temperatura em °C convertida para °F: {}'.format(conv_fh))
-
+'''
 #tarefa 11
+n1= int(input ('Insira um número:'))
+n2= int(input ('Insira um número:'))
+n3= int(input('Insira um número:'))
+conta1= (n1 * 2)  + (n2 / 2)
+print (conta1)
+conta2= (n1 * 3) + n3
+print (conta2)
+conta3= n3 ** 3
+print (conta3)
