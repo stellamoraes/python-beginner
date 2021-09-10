@@ -1,4 +1,3 @@
-'''
 #tarefa 1
 print ('Olá, mundo!')
 
@@ -49,7 +48,7 @@ print ('Temperatura em °F convertida para °C: {}'.format(conv_celcius))
 temp_celcius= int(input('Insira a temperatura em graus Celcius:'))
 conv_fh= (temp_celcius + 1.8) + 32
 print ('Temperatura em °C convertida para °F: {}'.format(conv_fh))
-'''
+
 #tarefa 11
 n1= int(input ('Insira um número:'))
 n2= int(input ('Insira um número:'))
