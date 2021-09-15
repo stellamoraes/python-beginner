@@ -1,3 +1,2 @@
-# Exercicios python
-
-## Exercicios para exercitar codigos Python =D
+# Exercicios para praticar codigos com Python 
+# Tarefas retiradas do site: https://wiki.python.org.br/ListaDeExercicios
